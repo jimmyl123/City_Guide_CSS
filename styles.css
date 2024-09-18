@@ -31,3 +31,29 @@ header h2 {
     font-size: 1.8em;
     letter-spacing: 1px;
 }
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+header nav ul li {
+    margin: 0;
+}
+
+header nav ul li a {
+    color: #f0f0f5;
+    font-weight: bold;
+    font-size: 1.1em;
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #00cec9;
+    transform: scale(1.05);
+}
