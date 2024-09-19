@@ -165,10 +165,14 @@ input[type="submit"]:hover {
     transform: scale(1.05);
 }
 
-a:link, a:visited {
+a:link {
     color: #74b9ff;
     text-decoration: none;
     transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+a:visited {
+    color: #d63031;
 }
 
 a:hover {
